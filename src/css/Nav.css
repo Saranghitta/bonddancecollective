@@ -1,0 +1,24 @@
+nav {
+    background-color: #090909;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    column-gap: 3vw
+}
+
+nav ul li {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 4rem;
+    color: white;
+}
+
+nav ul li a {
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    color: white;
+}
