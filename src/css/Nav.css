@@ -1,8 +1,13 @@
 nav {
+    margin-top: -11vh;
+    position: sticky;
+    top: 0;
     background-color: #090909;
-    height: 15vh;
+    height: 8vh;
     display: flex;
     align-items: center;
+    z-index: 1000;
+    padding: 0.5vh;
 }
 
 nav ul {
@@ -13,7 +18,7 @@ nav ul {
 
 nav ul li {
     font-family: 'Abhaya Libre', serif;
-    font-size: 4rem;
+    font-size: 3.6rem;
     color: white;
 }
 

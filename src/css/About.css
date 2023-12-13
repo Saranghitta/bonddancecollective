@@ -1,0 +1,31 @@
+.about-container {
+    font-family: 'Abhaya Libre', serif;
+    display: flex;
+    background-color: #090909;
+    color: white;
+    height: 90vh;
+    align-content: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.about-container img {
+    margin: 3vw;
+    border-radius: 16px;
+}
+
+.about-content h2 {
+    align-self: center;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: -1vh;
+}
+.about-content {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
