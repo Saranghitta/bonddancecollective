@@ -4,7 +4,7 @@ import "../css/Header.css"
 
 export default function Header () {
     return (
-        <header>
+        <header id="landing">
             <img className="header-logo" src={Logo} alt="The B-OND logo: a tree of life with a celtic knot represented in the branches"/>
             <div className="title-container">
                 <h1 className="title h1">B-OND</h1>
