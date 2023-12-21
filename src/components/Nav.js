@@ -17,7 +17,9 @@ export default function Nav () {
             </Link>
           </li>
           <li>
+            <Link to="talent" smooth={true} duration={500} >
               Talent
+            </Link>
           </li>
           <li>
             <Link to="contact" smooth={true} duration={500} >

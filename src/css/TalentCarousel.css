@@ -1,0 +1,44 @@
+.carousel {
+    width: 35vw;
+}
+
+.slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+.slick-list {
+    -webkit-mask: linear-gradient(90deg, rgba(0,0,0,0) 15%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 85%);
+            mask: linear-gradient(90deg, rgba(0,0,0,0) 15%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 85%);
+}
+
+.slick-track {
+    height: fit-content;
+}
+
+.carousel-img {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.talent-description {
+    width: 70vw;
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.talent-name {
+    font-size: 3.2rem;
+}
